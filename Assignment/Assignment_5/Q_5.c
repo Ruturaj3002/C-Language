@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+//code
+int x,i;
+
+
+printf("enter the number: ");
+
+scanf("%d",&i);
+
+for (x=1;x<=i;x++)
+
+printf("%d ",3*i+3-2*x);
+
+
+return 0;
+
+}
+
